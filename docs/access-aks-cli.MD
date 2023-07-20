@@ -14,7 +14,7 @@ type az --help --> to test whether Azure CLI is installed correctly or not
 ## Once Installation is completed, need to Access Azure with below commands
 ```sh
 az login
-az account set --subscription <SubscriptionName> --> Incase if we have multiple subscriptions
+az account set --subscription <SubscriptionID> --> Incase if we have multiple subscriptions
 az aks get-credentials --resource-group=<RGNAME> --name=<AKSCLUSTERNAME>
 ```
 ## Install kubectl command line package in Local Windows Machine
